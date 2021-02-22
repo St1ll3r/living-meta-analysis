@@ -376,7 +376,7 @@
     return null;
   }
 
-  function valueOrArrayItem(arr, index) {
+  function valueOfArrayItem(arr, index) {
     if (Array.isArray(arr)) return arr[index];
 
     return arr;
